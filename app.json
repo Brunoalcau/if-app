@@ -15,9 +15,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.ifce.aluno-online",
+      "supportsTablet": true,
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "bundleIdentifier": "com.ifce.aluno-online",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +28,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a7c6b7b2-0cb4-4ccc-b620-8a5f2d839405"
+      }
     }
   }
 }
